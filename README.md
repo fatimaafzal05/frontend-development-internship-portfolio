@@ -1,6 +1,8 @@
-# Frontend Internship Portfolio
+# Frontend Development Portfolio
 
-Practical frontend projects completed during a Big O Soft LLC internship. Each week builds on a different part of the modern frontend workflow: semantic HTML/CSS, JavaScript APIs, TypeScript, Git/GitHub, and React.
+A collection of responsive frontend projects that demonstrate practical skills in modern web development. The work progresses from semantic HTML and CSS to JavaScript, TypeScript, React, Next.js and Tailwind CSS.
+
+Each project focuses on clean structure, accessible user interfaces, responsive layouts and maintainable code.
 
 ## Projects
 
@@ -12,7 +14,7 @@ Practical frontend projects completed during a Big O Soft LLC internship. Each w
 | 4    | React product search    | React state/effects, controlled inputs, typed reusable components       |
 | 5    | Next.js studio page     | App Router, server rendering, Tailwind CSS, metadata, static export     |
 
-## Live projects
+## Live demos
 
 - [Week 1: Responsive landing page](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/)
 - [Week 2 & 3: Product search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week02-product-search/)
@@ -21,7 +23,7 @@ Practical frontend projects completed during a Big O Soft LLC internship. Each w
 
 ## Run locally
 
-Install dependencies once for the TypeScript and React projects, then build either project as needed:
+Install the dependencies and run the relevant build command:
 
 ```bash
 npm install
@@ -30,4 +32,4 @@ npm run build:week04
 npm --prefix week05-nextjs-tailwind run build
 ```
 
-Open the repository folder in VS Code and use a local server to preview the static projects.
+Open the repository in VS Code, then use a local development server to preview the static projects.
