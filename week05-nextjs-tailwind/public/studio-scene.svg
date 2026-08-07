@@ -1,0 +1,15 @@
+<svg width="700" height="560" viewBox="0 0 700 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="560" rx="32" fill="#172554"/>
+  <circle cx="555" cy="105" r="150" fill="#4F46E5" fill-opacity=".55"/>
+  <circle cx="123" cy="494" r="180" fill="#312E81"/>
+  <rect x="88" y="107" width="522" height="330" rx="24" fill="#F8FAFC"/>
+  <rect x="111" y="132" width="476" height="31" rx="12" fill="#E0E7FF"/>
+  <circle cx="132" cy="148" r="6" fill="#818CF8"/><circle cx="151" cy="148" r="6" fill="#A5B4FC"/>
+  <rect x="125" y="196" width="217" height="18" rx="9" fill="#1E1B4B"/>
+  <rect x="125" y="229" width="179" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="125" y="253" width="192" height="12" rx="6" fill="#CBD5E1"/>
+  <rect x="125" y="306" width="133" height="45" rx="16" fill="#4F46E5"/>
+  <path d="M403 326C403 271 447 227 502 227C557 227 601 271 601 326V370H403V326Z" fill="#C7D2FE"/>
+  <circle cx="502" cy="264" r="42" fill="#FBBF77"/><path d="M459 367C464 321 486 300 502 300C518 300 540 321 545 367H459Z" fill="#4338CA"/>
+  <path d="M520 232C506 211 471 215 464 245C481 237 499 244 520 232Z" fill="#312E81"/>
+</svg>
