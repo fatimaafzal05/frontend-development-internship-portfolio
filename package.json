@@ -1,8 +1,17 @@
 {
   "scripts": {
-    "build:week02": "tsc --project week02-product-search/tsconfig.json"
+    "build:week02": "tsc --project week02-product-search/tsconfig.json",
+    "build:week04": "vite build --config week04-react-product-search/vite.config.ts"
   },
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.1"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
   }
 }
