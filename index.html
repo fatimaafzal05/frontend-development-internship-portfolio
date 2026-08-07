@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A responsive landing page created for Week 1 of the Big O Soft LLC internship."
+    />
+    <title>Elevate | Better digital experiences</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Elevate home">elevate<span>.</span></a>
+        <div class="nav-links">
+          <a href="#features">What we do</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Design with purpose</p>
+            <h1 id="hero-title">Make your next digital move <em>matter.</em></h1>
+            <p class="hero-text">
+              We help growing teams turn ambitious ideas into clear, memorable digital experiences.
+            </p>
+            <a class="button button-primary" href="#contact">Start a conversation <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-art" aria-label="Abstract design shapes" role="img">
+            <div class="shape shape-circle"></div>
+            <div class="shape shape-arch"></div>
+            <p>01 <span>Strategy<br />+ design</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section" id="features" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">How we help</p>
+            <h2 id="features-title">Thoughtful work, built for real momentum.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <p class="feature-number">01</p>
+              <h3>Find the focus</h3>
+              <p>Clarify your goals, audience, and the one idea that makes your work stand apart.</p>
+            </article>
+            <article class="feature-card feature-card-accent">
+              <p class="feature-number">02</p>
+              <h3>Shape the story</h3>
+              <p>Bring strategy and visual direction together in an experience people want to explore.</p>
+            </article>
+            <article class="feature-card">
+              <p class="feature-number">03</p>
+              <h3>Launch with clarity</h3>
+              <p>Deliver a polished, responsive foundation that is ready to grow with your team.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Let's build</p>
+            <h2 id="contact-title">A good conversation is where every great project begins.</h2>
+            <p class="contact-note">Tell us a little about what you are working on. We will be in touch within two business days.</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+            </div>
+            <div class="field">
+              <label for="project">What can we help with?</label>
+              <textarea id="project" name="project" rows="4" required></textarea>
+            </div>
+            <button class="button button-dark" type="submit">Send your message <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="brand" href="#home">elevate<span>.</span></a>
+        <p>Week 1 internship project · HTML &amp; CSS</p>
+      </div>
+    </footer>
+  </body>
+</html>
