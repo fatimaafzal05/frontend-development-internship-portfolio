@@ -1,6 +1,4 @@
-# Week 01 - Responsive Landing Page
-
-This project is the Week 1 internship assignment for Big O Soft LLC. It is a framework-free landing page built with semantic HTML5 and modern CSS.
+ Week 0 - Responsive Landing Page
 
 ## What it includes
 
