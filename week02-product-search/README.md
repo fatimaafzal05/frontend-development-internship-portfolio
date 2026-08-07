@@ -4,6 +4,7 @@ A framework-free JavaScript product search page built for Week 2 of the internsh
 
 ## Concepts demonstrated
 
+- TypeScript with strict types, interfaces, unions, optional properties, and typed functions
 - ES modules with `import` / `export`
 - `async` / `await`, `fetch`, `try` / `catch`, and an error state
 - Dynamic DOM rendering from the DummyJSON public API
@@ -18,5 +19,12 @@ Open `index.html` with a local server (for example, VS Code Live Server). The pu
 
 - `index.html` — semantic page structure
 - `style.css` — responsive styling
-- `app.js` — UI state, filtering, sorting, and DOM rendering
-- `api.js` — public API request module
+- `app.ts` — typed UI state, filtering, sorting, and DOM rendering
+- `api.ts` — typed product model and public API request module
+- `dist/` — compiled browser-ready JavaScript
+
+## Build
+
+```bash
+npm run build:week02
+```

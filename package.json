@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build:week02": "tsc --project week02-product-search/tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
