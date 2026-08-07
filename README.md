@@ -1,30 +1,30 @@
- Week 0 - Responsive Landing Page
+# Frontend Internship Portfolio
 
-## What it includes
+Practical frontend projects completed during a Big O Soft LLC internship. Each week builds on a different part of the modern frontend workflow: semantic HTML/CSS, JavaScript APIs, TypeScript, Git/GitHub, and React.
 
-- Responsive, mobile-first design for 320px, 768px, and 1440px viewports
-- Three required sections: hero, features, and contact form
-- Semantic landmarks, meaningful form labels, focus styles, and a skip link
-- CSS custom properties, Flexbox, CSS Grid, and relative units
+## Projects
+
+| Week | Project                 | Skills demonstrated                                                     |
+| ---- | ----------------------- | ----------------------------------------------------------------------- |
+| 1    | Responsive landing page | Semantic HTML, mobile-first CSS, Grid, Flexbox, accessibility           |
+| 2    | Product search          | JavaScript modules, Fetch API, filtering, sorting, DOM rendering        |
+| 3    | TypeScript migration    | Strict TypeScript, typed models, typed DOM state, pull-request workflow |
+| 4    | React product search    | React state/effects, controlled inputs, typed reusable components       |
+
+## Live projects
+
+- [Week 1: Responsive landing page](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/)
+- [Week 2 & 3: Product search](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/week02-product-search/)
+- [Week 4: React + TypeScript product search](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/week04-react-product-search/dist/)
 
 ## Run locally
 
-No installation is needed. Open `index.html` directly in a browser, or open the folder in VS Code and use the Live Server extension.
-
-## Files
-
-- `index.html` - page structure and content
-- `style.css` - responsive visual design
-
-## GitHub upload
+Install dependencies once for the TypeScript and React projects, then build either project as needed:
 
 ```bash
-git init
-git add .
-git commit -m "Create Week 01 responsive landing page"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/week01-landing-page.git
-git push -u origin main
+npm install
+npm run build:week02
+npm run build:week04
 ```
 
-Replace `YOUR-USERNAME` with your GitHub username after you create an empty repository on GitHub.
+Open the repository folder in VS Code and use a local server to preview the static projects.
