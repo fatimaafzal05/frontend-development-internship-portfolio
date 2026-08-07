@@ -13,9 +13,9 @@ Practical frontend projects completed during a Big O Soft LLC internship. Each w
 
 ## Live projects
 
-- [Week 1: Responsive landing page](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/)
-- [Week 2 & 3: Product search](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/week02-product-search/)
-- [Week 4: React + TypeScript product search](https://fatimaafzal05.github.io/fatima-frontend-internship-portfolio/week04-react-product-search/dist/)
+- [Week 1: Responsive landing page](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/)
+- [Week 2 & 3: Product search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week02-product-search/)
+- [Week 4: React + TypeScript product search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week04-react-product-search/dist/)
 
 ## Run locally
 
