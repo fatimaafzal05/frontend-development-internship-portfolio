@@ -13,6 +13,7 @@ Each project focuses on clean structure, accessible user interfaces, responsive 
 | 3    | TypeScript migration    | Strict TypeScript, typed models, typed DOM state, pull-request workflow |
 | 4    | React product search    | React state/effects, controlled inputs, typed reusable components       |
 | 5    | Next.js studio page     | App Router, server rendering, Tailwind CSS, metadata, static export     |
+| 6    | CMS content hub         | Content modelling, motion, accessibility, Next.js, Tailwind CSS         |
 
 ## Live demos
 
@@ -20,6 +21,7 @@ Each project focuses on clean structure, accessible user interfaces, responsive 
 - [Week 2 & 3: Product search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week02-product-search/)
 - [Week 4: React + TypeScript product search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week04-react-product-search/dist/)
 - [Week 5: Next.js + Tailwind studio page](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week05-nextjs-tailwind/out/)
+- [Week 6: CMS content hub](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week06-cms-content-hub/out/)
 
 ## Run locally
 
@@ -30,6 +32,7 @@ npm install
 npm run build:week02
 npm run build:week04
 npm --prefix week05-nextjs-tailwind run build
+npm --prefix week06-cms-content-hub run build
 ```
 
 Open the repository in VS Code, then use a local development server to preview the static projects.
