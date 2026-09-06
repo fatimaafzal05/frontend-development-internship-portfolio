@@ -9,6 +9,7 @@ A selection of responsive web projects built while learning modern frontend deve
 - React Product Search - React and TypeScript
 - Studio Landing Page - Next.js and Tailwind CSS
 - Content Hub - Next.js, Tailwind CSS and accessible interactions
+- Community Events Page - Next.js, Tailwind CSS and accessible event content
 
 ## Live projects
 
@@ -17,5 +18,6 @@ A selection of responsive web projects built while learning modern frontend deve
 - [React Product Search](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week04-react-product-search/dist/)
 - [Studio Landing Page](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week05-nextjs-tailwind/out/)
 - [Content Hub](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week06-cms-content-hub/out/)
+- [Community Events Page](https://fatimaafzal05.github.io/frontend-development-internship-portfolio/week07-community-events/out/)
 
 Each project has its own folder with the source code and instructions for running it locally.
