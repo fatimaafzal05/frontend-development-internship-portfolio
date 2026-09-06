@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fcfaf6; color: #172033; font-family: Arial, Helvetica, sans-serif; }
+:focus-visible { outline: 3px solid #0f766e; outline-offset: 3px; }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+.rise { animation: rise 620ms both cubic-bezier(.22, 1, .36, 1); }
+.rise-delay { animation-delay: 110ms; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; } }
